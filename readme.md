@@ -9,11 +9,11 @@ Current Version: 0.1 [Initial Build]
 
 ##### Heroku Link for Production
 
-![Happy Hour](http://wdi-15-project03.herokuapp.com)
+[Happy Hour](http://wdi-15-project03.herokuapp.com)
 
 ---
 ##### Pivotal Tracker
-![Project Management](https://www.pivotaltracker.com/n/projects/1333354)
+[Project Management](https://www.pivotaltracker.com/n/projects/1333354)
 
 ---
 ##### Current Features
