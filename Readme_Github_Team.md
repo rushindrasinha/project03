@@ -1,5 +1,9 @@
 # Team Readme
+
+
 ---
+
+
 ### The following are the best practices that we will use to version control the application
 
 1. git pull origin master (branch)
@@ -8,4 +12,7 @@
 4. once specific feature is completed -> git push origin branchname
 5. use git status often
 6. see which branch you're on -> git branch
+
+
+
 ---
