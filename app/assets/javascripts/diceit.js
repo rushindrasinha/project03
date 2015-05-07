@@ -1,4 +1,4 @@
-// array is the recipe data we will get from consuming our own api
+    // array is the recipe data we will get from consuming our own api
 var array = ["Chicken", "Bread", "Milk", "Cereal"];
 var rejectedArray = [];
 
