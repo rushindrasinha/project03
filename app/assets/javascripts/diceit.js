@@ -43,8 +43,8 @@ function diceit() {
                 var lastIndex = shuffled_array.length - 1;
                 suggestedRecipe = shuffled_array[lastIndex];
                 console.log(suggestedRecipe);
-
-                if 
+                
+            
 
                 // this pops the lastindex from the shuffled array 
                 shuffled_array.pop();
