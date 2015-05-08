@@ -2,6 +2,7 @@
 var array = ["Chicken", "Bread", "Milk", "Cereal"];
 var rejectedArray = [];
 
+
 function diceit() {
         // begin shuffle array function
         var shuffle = function(array) {
