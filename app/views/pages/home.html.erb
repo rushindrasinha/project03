@@ -3,9 +3,60 @@
     <div class="container centeralign">
       <br>
       <br>
-      <section>
+      <section class="jumbotron">
         <div class="centeralign">
-          <%= image_tag("social.jpg", class: "img-responsive") %>
+
+          <h3>Social Using Any Social Network</h3>
+
+          <span><!-- Small modal -->
+            <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target=".bs-example-modal-lg">Facebook</button>
+
+            <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  This is the Login Feature through Facebook
+                </div>
+              </div>
+            </div>
+          </span>
+
+
+          <span><!-- Small modal -->
+            <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target=".bs-example-modal-lg">Twitter</button>
+
+            <div class="modal fade bs-example-modal-lg" tabindex="-2" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  This is the login feature through Twitter
+                </div>
+              </div>
+            </div>
+          </span>
+
+
+          <span><!-- Small modal -->
+            <button type="button" class="btn btn-danger btn-lg" data-toggle="modal" data-target=".bs-example-modal-lg">Google</button>
+
+            <div class="modal fade bs-example-modal-lg" tabindex="-3" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  This is the login feature through Google
+                </div>
+              </div>
+            </div>
+          </span>
+
+
+          <h1>OR</h1>
+
+
+          <div class="">
+            <%= link_to "Continue As Guest", roll_path, class: "btn btn-lg btn-primary"  %>
+          </div>
+          <!-- <span><a class="btn btn-primary btn-lg" target=_blank href="#" id="facebook">Facebook</a></span>
+          <span><a class="btn btn-default btn-lg" target=_blank href="#" id="twitter">Twitter</a></span>
+          <span><a class="btn btn-danger btn-lg" target=_blank href="#" id="google">Google</a></span> -->
+
         </div>
       </section>
 
