@@ -1,6 +1,7 @@
     // array is the recipe data we will get from consuming our own api
 var array = ["Chicken", "Bread", "Milk", "Cereal"];
 var rejectedArray = [];
+var selectedRecipe = false;
 
 
 function diceit() {
@@ -42,6 +43,8 @@ function diceit() {
                 var lastIndex = shuffled_array.length - 1;
                 suggestedRecipe = shuffled_array[lastIndex];
                 console.log(suggestedRecipe);
+
+                if 
 
                 // this pops the lastindex from the shuffled array 
                 shuffled_array.pop();
