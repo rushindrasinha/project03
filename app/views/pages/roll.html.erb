@@ -17,9 +17,55 @@
         <br><br><br>
         <%= image_tag("dice.jpg", height: "300", width: "350", class: "img-responsive") %>
 
-        <br>
+
+
+        <br><br>
         <br><br><br><br>
-        <div><a class="btn btn-default btn-lg" href="#" id="dice" onclick="diceit()">Roll The Dice</a></div>
+
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+          Roll The Dice
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Chicken On Rice</h4>
+              </div>
+              <div class="modal-body">
+                <%= image_tag("chick.jpg", height: '200', width: '200', class: "img-responsive") %>
+                <span>Prep Time </span><strong class="btn btn-md btn-default"> 15 Minutes</strong>
+                <hr>
+                <p><strong>Description :     </strong>
+                  Broth Simmered Rice: Heat 1 can Campbell's® Condensed Chicken Broth and 1 cup water to a boil. Stir in 2 cups uncooked Minute® White Rice. Cover and remove from heat. Let stand 5 minutes. Fluff with fork.
+                </p>
+                <hr>
+                <h3>Directions</h3>
+                <ul>
+                  <li>
+                    Heat oil in skillet. Add chicken and cook until browned.
+                  </li>
+                  <li>
+                    Add soup and milk. Heat to a boil. Cover and cook over low heat 5 minutes or until done. Serve with Broth Simmered Rice.
+                  </li>
+                </ul>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Roll Again</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+        <br>
+        <!-- <div><a class="btn btn-default btn-lg" href="#" id="dice" onclick="diceit()">Roll The Dice</a></div> -->
         <br>
       </section>
     </div>
