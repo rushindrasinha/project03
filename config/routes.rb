@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  namespace :api do
+    resources :recipes, only: [:index, :show, :create, :update, :destroy]
+  end
+
+
+
   root 'pages#home'
 
   get 'pages/home'
