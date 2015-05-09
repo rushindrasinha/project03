@@ -1,4 +1,5 @@
     // array is the recipe data we will get from consuming our own api
+
 var array = ["Chicken", "Bread", "Milk", "Cereal"];
 var rejectedArray = [];
 var selectedRecipe = false;
@@ -55,7 +56,7 @@ function diceit() {
                      alert("refresh the page for now, we're under construction")
                    }
                 }
-                
+
 
 
         suggestion(shuffled_array);

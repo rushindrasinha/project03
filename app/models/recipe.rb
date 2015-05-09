@@ -6,7 +6,7 @@ class Recipe < ActiveRecord::Base
     # before_save { self.subject = subject.downcase }
 
 def as_json(options={})
-  super(except:  [:name, :description, :ingredients, :time,:directions, :created_at, :updated_at])
+  super(only:  [:name, :description, :ingredients, :time,:directions, :created_at, :updated_at])
 end
 
 end
